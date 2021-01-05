@@ -32,7 +32,7 @@ int main(){
 	a=x*(y/100);
 	cout << setw(13) << left << a;
 	cout << setw(13) << left << x+a;
-	if((x+a)<z)z=x+a;
+	if((x+a)<100)z=x+a;
 	cout << setw(13) << left << z;
 	x=(x+a)-z;
 	cout << setw(13) << left << x;
